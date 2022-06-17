@@ -8,7 +8,7 @@ body {
 .fb {
   display: flex;
   justify-content: space-between;
-  padding: 10px 200px;
+  padding: 60px 200px;
 }
 .bt {
   color: white;
@@ -172,8 +172,7 @@ h1 {
   font-size: 17px;
 }
 .div3 {
-  
-  padding: 0px 16px 0px 16px ;
+  padding: 0 16px;
   gap: 50px;
   }  
 svg{
@@ -189,6 +188,12 @@ svg{
 }
 .abt{
   font-size: 15px;
+}
+.fb{
+  padding: 16px;
+}
+footer {
+  padding: 16px;
 }
 }
 
@@ -257,7 +262,7 @@ svg{
 }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (min-width:801px) and (max-width: 1100px) {
 .fb{
 padding: 30px 64px ;
 }
