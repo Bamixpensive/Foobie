@@ -29,9 +29,9 @@ body {
 }
 .bt:hover {
   color: white;
-  background-color: rgb(255, 30, 0);
-  animation: normal;
-  transition: 5s;
+  background-color: rgb(228, 7, 7);
+  transition: ease-in-out;
+  transition-duration: .7s;
 }
 .section1 {
   display: flex;
