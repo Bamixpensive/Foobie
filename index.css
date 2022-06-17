@@ -4,27 +4,20 @@ body {
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-
 }
 .fb {
-  margin: 20px;
-  margin-left: 100px;
   display: flex;
   justify-content: space-between;
-  padding: 10px 200px 0px 70px;
-  
-  
+  padding: 10px 200px;
 }
 .bt {
   color: white;
   background-color: orangered;
-  border-radius: 20px;
+  border-radius: 25px;
   border: none;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 15px 30px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 .bt:hover {
@@ -33,46 +26,51 @@ body {
   transition: ease-in-out;
   transition-duration: .7s;
 }
+
+main {
+  padding: 50px 200px;
+}
+
 .section1 {
   display: flex;
   justify-content: space-between;
-  padding-top: 150px;
-  padding-left: 170px;
+  align-items: center;
 }
 h1 {
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 700;
   font-family: CabinetGrotesk,sans-serif;
   color: #002830;
-  line-height: 50px;
+ 
 }
 p {
   font-weight: 400;
   color: #73878e;
   font-family: sans-serif;
   font-size: 20px;
-  letter-spacing: 1px;
   font-family: satoshi-Variable, sans-serif;
   font-size: 20px;
-  line-height: 30px;
   margin-top: 20px;
 }
 .pwfl {
   color: orangered;
   font-weight: 600;
 }
+.bt1 {
+  color: white;
+  background-color: orangered;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
 .shot {
-  width: 600px;
+  width: 50%;
   height: 100%;
  
  
-}
-.section2 {
-  display: flex;
-  justify-content: left;
-  align-content: space-evenly;
-  padding-left: 130px;
-  padding-bottom: 150px;
 }
 
 .tb {
@@ -85,18 +83,17 @@ p {
 }
 .logo {
   align-items: center;
-  display: flex;
   gap: 20px;
-  margin-top: 20px;
-  width: 40%;
   list-style-type: none;
-  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; 
 }
 .div3 {
   background: rgb(236, 231, 231,.2);
   display: flex;
   justify-content: space-between;
-  height: 250px;
   padding-top: 130px;
   padding-left: 170px;
   padding-right: 100px;
@@ -106,41 +103,170 @@ p {
 }
 
 .cpr{
-    margin-left: 50px;
-    line-height: 32px;
     font-size: 16px;
     font-family: sans-serif;
 }
 h3{
     color: #002830;
     font-weight: 600;
-    line-height: 32px;
     font-family: sans-serif;
     font-size: 20px; 
 }
 .otr{
     color: #002830;
     font-size: 1.5rem;
-    line-height: 2.125rem;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 18px;
     
 }
 .abt{
     font-weight: 400;
-    font-family: satoshi-Variable, sans-serif;
     color: #73878e;
-    font-size: 20px;
-    line-height: 32px;
-    font-family: inherit;
-     
+    font-size: 16px;
+    max-width: 262px;
 }
 .mail{
     color: orangered;
     font-weight: 600;
     text-decoration: none;
-
-
-    
 }
 
+@media screen and (max-width: 425px) {
+  .bt {
+    display: none;
+  }
+.bt1{
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+main {
+  padding: 0px 16px;
+}
+.tb{
+  font-size: 20px;
+  padding: 0;
+  font-weight: 400;
+}
+.div2{
+  padding: 0px 16px 0px 16px;
+  margin-bottom: 100px;
+ 
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+
+}
+.shot{
+  display: none;
+}
+.myp{
+  font-size: 17px;
+}
+.div3 {
+  
+  padding: 0px 16px 0px 16px ;
+  gap: 50px;
+  }  
+svg{
+  width: 130;
+  height: 20;
+}
+.cpr{
+  font-size: 20px;
+
+}
+.otr{
+  font-size: 20px;
+}
+.abt{
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .fb{
+    padding: 16px;
+  }
+  .bt {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  }
+  main {
+    padding: 0px 50px;
+  }
+.tb{
+  font-size: 20px;
+  padding: 0;
+  font-weight: 400;
+}
+.div2{
+  padding: 0px 32px 0px 32px;
+  margin-bottom: 100px;
+ 
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #002830;
+  
+}
+.shot{
+  display: none;
+}
+.myp{
+  font-size: 17px;
+}
+.div3 {
+  background: rgb(236, 231, 231,.2);
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0px 32px 0px 32px ;
+  gap: 50px;
+  }  
+svg{
+  width: 130;
+  height: 20;
+}
+.cpr{
+  font-size: 20px;
+
+}
+.otr{
+  font-size: 20px;
+}
+.abt{
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.fb{
+padding: 30px 64px ;
+}
+main{
+padding: 0 64px ;
+}
+.div3{
+padding: 30px 64px ;
+align-items: center;
+
+}
+}
